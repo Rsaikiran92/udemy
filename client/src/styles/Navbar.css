@@ -1,0 +1,41 @@
+.navbar {
+  padding: 15px 25px;
+  box-shadow: 0 2px 4px rgba(6, 17, 118, 0.08),
+    0 4px 12px rgba(6, 17, 118, 0.08);
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.ghostbtn {
+  color: black;
+}
+.ghostbtn:hover {
+  color: rgb(109, 40, 210);
+}
+img {
+  width: 250px;
+}
+.solidbtn {
+  font-weight: bold;
+}
+.menu {
+  display: none;
+}
+@media (min-width: 320px) and (max-width: 800px)  {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+    }
+  .menu {
+    display: block;
+  }
+  .btn {
+    display: none;
+  }
+  img {
+    width: 100px;
+  }
+}
